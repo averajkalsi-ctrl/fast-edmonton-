@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: radial-gradient(circle at top, #1a1a1a, #000);
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+/* NAV BAR */
+nav {
+  background: #000;
+  border-bottom: 2px solid #e10600;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  color: #e10600;
+}
+
+/* HERO */
+header {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #000, #1a1a1a);
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #e10600;
+  text-transform: uppercase;
+}
+
+header p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 35px;
+  background: #e10600;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff2a2a;
+  transform: scale(1.05);
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  color: #e10600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #222;
+}
+
+/* CONTACT BOX */
+.contact-box {
+  background: #0f0f0f;
+  border: 1px solid #e10600;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #e10600;
+  color: #777;
+}
